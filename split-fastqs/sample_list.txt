@@ -1,0 +1,8 @@
+Aladin_ENT A3-A4
+Aladin_Hip A1-A2
+Aladin_PFC A5-A6
+Aladin_Liver A7-A8
+Flounder_ENT A11-A12
+Flounder_HIP A9-A10
+Flounder_PFC B1-B2
+Flounder_Liver B3-B4
