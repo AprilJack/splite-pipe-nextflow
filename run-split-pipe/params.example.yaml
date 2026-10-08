@@ -1,0 +1,23 @@
+# Example per-project params file.
+# Copy, edit, then run:  nextflow run main.nf -params-file my_project.yaml
+# Anything not listed here falls back to nextflow.config.
+
+fqfiles:     "/vast/igc/analyses/april/PROJECT/fastqs/*_S*_{R1,R2}.fastq.gz"
+# input:     "samplesheet.csv"        # use instead of fqfiles to name sublibraries explicitly
+
+genome_dir:  "/vast/igc/data/genomes/parse_genomes/mm39"
+sample_list: "/vast/igc/analyses/april/PROJECT/sample_list.txt"
+outdir:      "/vast/igc/analyses/april/PROJECT/result"
+
+chemistry:   "v2"
+kit:         "WT"
+kit_score_skip: true
+
+split_cpus:  64            # 64 = one sublibrary at a time; 32 = two at a time
+# split_memory: "200 GB"
+# max_cpus:   64
+# max_memory: "480 GB"
+
+# split_extra_args:   ""
+# combine_extra_args: ""
+# skip_combine: false
